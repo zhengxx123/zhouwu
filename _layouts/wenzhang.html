@@ -9,7 +9,12 @@ layout: default
 <div class="row">
 <div class="col-lg-8 col-md-10 mx-auto">{{content}}</div>
 </div>
-
+ <div class="clearfix">
+ {% if page.previous %}
+        <a class="btn btn-primary float-left" href="{{page.previous.url}}">&larr; 上一页</a>
+        <a class="btn btn-primary float-right" href="{{page.next.url}}">下一页 &rarr;</a>
+        {% endif %}
+      </div>
 <div class="row">
   <div class="col-lg-8 col-md-10 mx-auto">
  
