@@ -1,0 +1,28 @@
+body{
+	padding-top:50px;
+}
+
+.jumu{
+	text-align:center;
+	background: url('../img/5.jpg') no-repeat;
+	background-size:cover;
+	color:red;
+	padding:150px 0;
+}
+.title{
+	font-size:35px;
+}
+.zhaiyao{
+	font-size:25px;
+}
+.author{
+	margin:20px 0;
+}
+.footer{
+	text-align:center;
+	font-size:20px;
+	color:#fff;
+}
+.footer p{
+	line-height: 50px;
+}
